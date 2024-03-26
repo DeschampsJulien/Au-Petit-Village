@@ -1,0 +1,24 @@
+footer {
+    background-color: #fdd90b;
+}
+
+a {
+    font-family: "BubbleboddyNeue-regular-Trial";
+    font-size: x-large;
+}
+
+.title {
+    color: #151217;
+    font-family: "BubbleboddyNeue-ExtraBold-Trial", sans-serif;
+}
+
+.text {
+    color: #151217;
+    font-family: "Confortaa", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type:none;
+}

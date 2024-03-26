@@ -1,0 +1,44 @@
+<app-background-home></app-background-home>
+
+<section class="background-section text-center pt-5 pb-5">
+
+    <div class="container">
+        
+        <h2 class="title mb-5 fs-2"><strong>{{ title }}</strong></h2>
+
+        <article class="text-center text-break">
+            <p class="text fs-4">
+                <strong>“Au petit village”</strong> est une entreprise qui confectionne des figurines inspirées de la bande dessinée Astérix et Obélix.
+                Elle cible une population jeune entre 30 et 55 ans, nostalgique des aventures des célèbres Gaulois.     
+            </p>
+        </article>
+
+        <h2 class="title mt-5 mb-5 fs-2"><strong>Catalogue des produits vendus</strong></h2>
+        
+        <app-figurines-sort></app-figurines-sort>
+              
+        <!-- RENDRE VISIBLE OU INVISIBLE AU CLICK -->
+        <!-- <button class="btn btn-primary m-3" (click)="onClick()">Liste populaire</button> -->
+        
+        <!-- <div class="row row-cols-1 row-cols-md-3 g-4" *ngIf="isVisible">
+            <div class="col-lg-4 col-md-6" *ngFor="let figurine of figurines">
+                <div class="card h-100">
+                    <img src={{figurine.imageUrl}} class="h-75 rounded-top"/>
+                    <div class="background-card card-body">
+                        <h3 class="title card-title fs-1">{{ figurine.name }}</h3>
+                        <p class="text card-text">{{ figurine.infos }}</p>
+                        <p class="text fs-4">{{ figurine.price }} Euros</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">En Stock</small>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+
+    </div>
+</section>
+
+
+
+

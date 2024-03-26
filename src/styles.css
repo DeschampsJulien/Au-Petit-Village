@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+@font-face {
+    font-family: "BubbleboddyNeue-Bold-Trial";
+    src: url('assets/fonts/BubbleboddyNeue-Bold-Trial.woff'); 
+    src: url('assets/fonts/BubbleboddyNeue-Bold\ Trial.ttf');
+}
+@font-face {
+    font-family: "BubbleboddyNeue-ExtraBold-Trial"; 
+    src: url('assets/fonts/BubbleboddyNeue-ExtraBold-Trial.woff');
+    src: url('assets/fonts/BubbleboddyNeue-ExtraBold\ Trial.ttf');
+}
+@font-face {
+    font-family: "BubbleboddyNeue-Light-Trial"; 
+    src: url('assets/fonts/BubbleboddyNeue-Light-Trial.woff');
+    src: url('assets/fonts/BubbleboddyNeue-Light\ Trial.ttf');
+}
+@font-face {
+    font-family: "BubbleboddyNeue-regular-Trial"; 
+    src: url('assets/fonts/bubbleboddyneue-regular-trial.woff');
+    src: url('assets/fonts/bubbleboddyneue-regular\ trial.ttf');
+}
+@font-face {
+    font-family: "BubbleboddyNeue-Thin-Trial"; 
+    src: url('assets/fonts/BubbleboddyNeue-Thin-Trial.woff');
+    src: url('assets/fonts/BubbleboddyNeue-Thin\ Trial.ttf');
+}
+/* .title {
+    color: #151217;
+    font-family: "BubbleboddyNeue-regular-Trial", sans-serif;
+}
+.text {
+    color: #151217;
+    font-family: "Confortaa", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+} */
+
+
+

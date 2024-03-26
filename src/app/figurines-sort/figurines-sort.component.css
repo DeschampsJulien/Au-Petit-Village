@@ -1,0 +1,19 @@
+.background-card {
+    background-color: #fdd90b;
+}
+
+.background-card-footer {
+    background-color: #da001e;
+}
+
+.title {
+    color: #151217;
+    font-family: "BubbleboddyNeue-regular-Trial", sans-serif;
+}
+
+.text {
+    color: #151217;
+    font-family: "Confortaa", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}

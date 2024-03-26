@@ -1,0 +1,21 @@
+.background-home {
+    background-image: url(../../assets/images/salon-gaulois.jpg);
+    min-height: 85vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0%;
+    background-position-y: 0%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #da001e;
+    font-family: "BubbleboddyNeue-ExtraBold-Trial";
+}
+h2{
+    color: #fdd90b;
+    font-family: "BubbleboddyNeue-Bold-Trial";
+}

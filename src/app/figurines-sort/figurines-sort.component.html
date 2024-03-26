@@ -1,0 +1,26 @@
+<div >
+    <input type="text" placeholder="Recherche par noms" class="form-control my-3 title" [(ngModel)]="searchText"/>
+
+    <select class="form-select my-3 title"  [(ngModel)]="sortByPrice">
+        <option class="text" value="">Trier par</option>
+        <option class="text" value="price-croissant">Prix croissant</option>
+        <option class="text" value="price-decreasing">Prix décroissant</option>
+    </select>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col-lg-3 col-md-4" *ngFor=" let figurine of (figurines | sortByPrice: sortByPrice | filterByName: searchText)">
+        <div class="card shadow-lg border border-dark">
+            <img [src]="figurine.imageUrl" alt="{{ figurine.name }}" class="rounded-top"/>
+            <div class="card-body background-card">
+                <h3 class="title card-title fs-2">{{ figurine.name }}</h3>
+                <p class="text card-text">{{ figurine.infos }}</p>
+                <p class="text card-text">{{ figurine.size }}</p>
+                <p class="text fs-4"><strong>Prix: {{ figurine.price }} Euros</strong></p>
+            </div>
+            <div class="card-footer background-card-footer">
+                <a [routerLink]="['/product', figurine.id]" class="btn btn-outline-light">Sélectionner</a>
+            </div>
+        </div>
+    </div>
+</div>
